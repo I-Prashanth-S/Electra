@@ -13,5 +13,7 @@ git clone https://github.com/RishinathhKS/Electra
 cd Electra
 
 pip install -r requirements.txt
+
+cd ..
 ```
 
