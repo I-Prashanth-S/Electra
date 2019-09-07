@@ -45,11 +45,19 @@ There are two options to choose from
 2)Run existing setup
 
 
-Enter the path to the camera feed, Here we are using a Surveillance camera video using the Real time streaming protocol(rtsp)
+Enter the path to the camera feed, here we are using a surveillance camera video using the Real Time Streaming Protocol (RTSP).
 
 
-
-Map the rooms structure into the image frame and hit Enter to begin processing the video frames
+Map the room's structure into the image frame and hit Enter to begin processing the video frames
 
 
 ##### The code is now fully up and running
+
+
+### Hardware Implementation
+
+The system is set up to serially communicate with an Arduino microcontroller. It does this by saving the output of the program into a file that can be read by an application called **Processing IDE** that sends the data over to the Arduino serial port. 
+
+Set up the Arduino board wiring by taking the positive terminal of every appliance from the switch board in the room and connecting it to the correspoding Digital IO (PWM) pins. Make sure the devices are connected to its respective ports, according to the indexing done in the room mapping. The negative terminals can be connected to the Ground pin in Arduino. A relay module can be used as an intermediary agent to prevent damage of the microcontroller due to the high power output from AC mains. 
+
+##### The wiring is now completed, and the electrical appliances will behave according to the realtime output of camera
