@@ -1,2 +1,6 @@
-# Electra
-Smart Electricity Management Technology that senses the presence of people in 3D space and controls the electrical devices in that space accordingly with the help of the surveillance camera by deep learning. 
+# Electra Automation System
+
+Electra is an arduino based automation system that develops a framework for interconnecting the electronic appliances in a room, that can detect the presence of an individual in the functional range of a device using a computer vision algorithm and accordingly switch it on and off. This in turn helps in saving a huge proportion of electricity consumption, and takes away the hassle of switching devices on and off from the user.
+
+
+
