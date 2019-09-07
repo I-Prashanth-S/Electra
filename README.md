@@ -24,7 +24,7 @@ cd ..
 
 After installation of the above requirements
 
-###Running the code
+### Running the code
 
 Open a terminal in this folder  
 
