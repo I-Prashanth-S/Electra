@@ -9,6 +9,8 @@ The implentation of the program requires the installation of the darkflow-yolov2
 
 This,can be done following the instructions in the youtube video
 https://youtu.be/PyjBd7IDYZs
+or clone the following repository
+https://github.com/thtrieu/darkflow
 
 Now,move to Darkflow-master folder then
 
@@ -22,13 +24,30 @@ pip install -r requirements.txt
 cd ..
 ```
 
-After installation of the above requirements
+After successfully installing all of the above requirements
 
 ### Running the code
 
-Open a terminal in this folder  
+Open a terminal in this folder (darkflow) 
+
+and now run the code
 
 ```
-python code.py
+python maincode.py
 ```
 
+Now that the code is running
+
+#### Set up screen
+
+There are two options to choose from
+1)Setup
+2)Run existing setup
+
+Map the rooms structure into the image frame and hit Enter to begin processing the video frames
+
+
+
+
+
+##### The code is now fully up and running
