@@ -51,7 +51,7 @@ Enter the path to the camera feed, here we are using a surveillance camera video
 Map the room's structure into the image frame and hit Enter to begin processing the video frames
 
 
-##### The code is now fully up and running
+##### The code is now fully up and running.
 
 
 ### Hardware Implementation
@@ -60,4 +60,6 @@ The system is set up to serially communicate with an Arduino microcontroller. It
 
 Set up the Arduino board wiring by taking the positive terminal of every appliance from the switch board in the room and connecting it to the correspoding Digital IO (PWM) pins. Make sure the devices are connected to its respective ports, according to the indexing done in the room mapping. The negative terminals can be connected to the Ground pin in Arduino. A relay module can be used as an intermediary agent to prevent damage of the microcontroller due to the high power output from AC mains. 
 
-##### The wiring is now completed, and the electrical appliances will behave according to the realtime output of camera
+The wiring is now completed. Flash the arduino program and run the Processing IDE code to start transmitting serial data.
+
+##### The electrical appliances will now behave according to the realtime output of the camera.
