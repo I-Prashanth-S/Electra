@@ -44,10 +44,12 @@ There are two options to choose from
 1)Setup
 2)Run existing setup
 
+
+Enter the path to the camera feed, Here we are using a Surveillance camera video using the Real time streaming protocol(rtsp)
+
+
+
 Map the rooms structure into the image frame and hit Enter to begin processing the video frames
-
-
-
 
 
 ##### The code is now fully up and running
